@@ -60,6 +60,7 @@ public class CarroService {
         carro.setFotos(dto.getFotos());
         carro.setPlaca(dto.getPlaca());
         carro.setReservado(dto.isReservado());
+        carro.setId(dto.getId());
         return carro;
     }
 
